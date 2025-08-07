@@ -14,9 +14,9 @@ hand = ImageTk.PhotoImage(hand)
 my_label = Label(window, image=hand, bd=2, relief="groove")
 my_label.pack(pady=20)
 
-ice = Image.open("fire.png").resize((100, 100))
-ice = ImageTk.PhotoImage(ice)
-label2 = Label(window, image=ice)
+firee = Image.open("fire.png").resize((100, 100))
+firee = ImageTk.PhotoImage(firee)
+label2 = Label(window, image=firee)
 
 button = False
 
@@ -38,3 +38,4 @@ toggle_button = Button(window, text="START", bg="green", command=change, width=1
 toggle_button.pack(pady=20)
 
 window.mainloop()
+
