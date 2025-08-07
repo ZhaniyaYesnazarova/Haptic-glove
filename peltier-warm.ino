@@ -1,4 +1,6 @@
-const int pin = 10;
+const int pin = 10; //check ur pin
+// this pin is connected to arduino digital pin and 
+//trigger pin of jz*mos switch drive
 
 void setup(){
   Serial.begin(9600);
