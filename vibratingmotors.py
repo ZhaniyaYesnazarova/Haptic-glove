@@ -14,13 +14,13 @@ hand = ImageTk.PhotoImage(hand)
 my_label = Label(window, image = hand, bd = 2, relief = "groove")
 my_label.pack(pady=20)
 
-ice = Image.open("bee.png").resize((30, 30))
-ice = ImageTk.PhotoImage(ice)
-label2 = Label(window, image=ice)
-label3 = Label(window, image=ice)
-label4 = Label(window, image=ice)
-label5 = Label(window, image = ice)
-label6 = Label(window, image = ice)
+bees = Image.open("bee.png").resize((30, 30))
+bees = ImageTk.PhotoImage(ice)
+label2 = Label(window, image=bees)
+label3 = Label(window, image=bees)
+label4 = Label(window, image=bees)
+label5 = Label(window, image = bees)
+label6 = Label(window, image = bees)
 
 
 
@@ -37,7 +37,7 @@ def imageOff():
     label3.place_forget()
     label4.place_forget()
     label5.place_forget()
-    label6.place_forget()  # hides it without clearing image
+    label6.place_forget()  
 
 
 def turnOn():
@@ -62,3 +62,4 @@ my_button2.pack()
 
 
 window.mainloop()
+
